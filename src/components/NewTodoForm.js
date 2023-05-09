@@ -36,7 +36,7 @@ function NewTodoForm(props){
                     </input>
                 </div>
                 <div className='mb-3'>
-                    <label className-='form-label'>Description</label>
+                    <label className='form-label'>Description</label>
                     <textarea 
                         className='form-control' 
                         rows={3} 
