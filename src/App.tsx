@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-import NewTodoForm from './components/NewTodoForm';
+import {NewTodoForm} from './components/NewTodoForm';
 import { TodoModel } from './models/TodoModel';
 import './App.css';
-import TodoTable from './components/TodoTable';
+import {TodoTable} from './components/TodoTable';
 
-function App() {
+export const App = () => {
   const [showAddTodoForm, setShowAddTodoForm] = useState(false);
   const [todos, setTodos] = useState([
     new TodoModel(1,'Feed puppy','User One'),
@@ -61,4 +61,3 @@ function App() {
   );
 }
 
-export default App;
